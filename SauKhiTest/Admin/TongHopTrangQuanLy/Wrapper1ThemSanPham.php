@@ -1,7 +1,12 @@
 <?php
-$i = 1;
-if ($i == 1) {
+
+	if (!isset($_SESSION['admin_email'])) {
+
+		echo "<script>window.open('./LoginCuaAdmin.php', '_self')</script>";
+
+	}else{
 ?>
+
     <!-- Bắt Đầu Tạo Header container-fluid -->
     <div class="content-header">
         <div class="container-fluid">
