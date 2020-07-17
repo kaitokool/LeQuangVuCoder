@@ -93,34 +93,7 @@ if (!isset($_SESSION['admin_email'])) {
         </ul>
 
         <ul class="navbar-nav ml-auto">
-
-          <li class="nav-item dropdown">
-            <a class="nav-link" data-toggle="dropdown" href="">
-              <i class="far pe-7s-bell pe-2x pe-va"></i>
-              <span class="badge badge-warning navbar-badge">16</span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-              <span class="dropdown-item dropdown-header">Thông Báo</span>
-              <div class="dropdown-divider"></div>
-              <a href="" class="dropdown-item">
-                <i class="fas fa-envelope mr-2"></i> 5 Tin Nhắn Mới
-                <span class="float-right text-muted text-sm">3 Phút</span>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a href="" class="dropdown-item">
-                <i class="fas fa-users mr-2"></i> 8 Khách Hàng
-                <span class="float-right text-muted text-sm">12 Tiếng</span>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a href="" class="dropdown-item">
-                <i class="fas fa-file mr-2"></i> 3 Báo Cáo Mới
-                <span class="float-right text-muted text-sm">2 Ngày</span>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a href="" class="dropdown-item dropdown-footer">Xem Thông Tin</a>
-            </div>
-          </li>
-
+          
           <li class="nav-item">
             <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="" role="button">
               <i class="fas pe-7s-config pe-spin pe-2x pe-va"></i>
