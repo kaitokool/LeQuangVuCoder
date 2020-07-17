@@ -74,7 +74,7 @@ include("./Admin/DatabaseChinh/database.php");
 
           <li class="nav-item">
 
-            <a class="nav-link" href="#DangNhap">Đăng Nhập</a>
+            <a class="nav-link" href="./LoginVGG.php">Đăng Nhập</a>
 
           </li>
 
@@ -183,7 +183,7 @@ include("./Admin/DatabaseChinh/database.php");
 
           <p>Bạn Đã Từng Thử Sắm Cho Mình 1 Laptop hay 1 cái PC.<br>Nhưng Bạn Lại Quá Đau Đầu Thì Hãy Đến Với Chúng Tôi, Bởi Vì Chúng Tôi Chính Là Giải Pháp.</p>
 
-          <a href="sanpham.php" title="" class="btn btnD1 active">Xem Chi Tiết</a>
+          <a href="./1TongHopPageVGG/XemSanPham.php" title="" class="btn btnD1 active">Xem Chi Tiết</a>
 
         </div>
 

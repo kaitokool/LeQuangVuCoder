@@ -41,8 +41,6 @@
                             <th> Invoice No</th>
                             <th> Tiền</th>
                             <th> Phương Thức Thanh Toán</th>
-                            <th> Tham Số Thanh Toán</th>
-                            <th> Mã Code</th>
                             <th> Ngày Thanh Toán</th>
                             <th> Xóa</th>
 
@@ -86,8 +84,6 @@
                                 <td> <?php echo $invoice_no; ?></td>
                                 <td> <?php echo $amount; ?> </td>
                                 <td> <?php echo $payment_mode; ?></td>
-                                <td> <?php echo $ref_no; ?> </td>
-                                <td> <?php echo $code; ?> </td>
                                 <td> <?php echo $date; ?> VNĐ</td>
                                 <td>
 
