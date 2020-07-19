@@ -15,7 +15,7 @@ Lớp:  Công Nghệ Thông Tin - K58
 3. Thêm Sửa Xóa Nhà Cung Cấp.
 4. Xem Thông Tin Của Khách Hàng.
 5. Gửi Gmail.
-6. Mua Sản Phẩm Mức.
+6. Mua Sản Phẩm.
 ## Phần 3: Các chức năng chưa hoàn thành
 1. Giao Diện và chức năng Giỏ Hàng.
 2. Giao diện và chức năng Thanh Toán.
