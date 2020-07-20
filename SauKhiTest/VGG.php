@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+session_destroy();
 include("./Admin/DatabaseChinh/database.php");
 
 ?>
@@ -205,16 +206,16 @@ include("./Admin/DatabaseChinh/database.php");
                 $URL_Slider = $row_slides['URL_Slider'];
 
                 echo "
-                                    <div class='item active'>
+                  <div class='item active'>
 
-                                        <a href='$URL_Slider'>
+                    <a href='$URL_Slider'>
                                         
-                                            <img src='1ImageTrangChuVGG/$slide_image' class='img-fluid'>
+                      <img src='1ImageTrangChuVGG/$slide_image' class='img-fluid'>
 
-                                        </a>
+                    </a>
 
-                                    </div>
-                                ";
+                  </div>
+                ";
               }
 
               $get_slides = "select * from slider LIMIT 1,3";
@@ -227,16 +228,16 @@ include("./Admin/DatabaseChinh/database.php");
                 $URL_Slider = $row_slides['URL_Slider'];
 
                 echo "
-                                    <div class='item'>
+                  <div class='item'>
 
-                                        <a href='$URL_Slider'>
+                    <a href='$URL_Slider'>
                                         
-                                            <img src='1ImageTrangChuVGG/$slide_image' class='img-fluid'>
+                      <img src='1ImageTrangChuVGG/$slide_image' class='img-fluid'>
 
-                                        </a>
+                    </a>
                                         
-                                    </div>
-                                ";
+                  </div>
+                ";
               }
 
               ?>
